@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#f20"
+    android:background="#00B7FF"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
     <TextView
         android:textStyle="bold"
@@ -15,12 +15,5 @@
         android:textColor="#FFFFFF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main Activity" />
-
-    <Button
-        android:id="@+id/button_navigate_screen_2"
-        android:layout_marginTop="10dp"
-        android:text="Navigate Main 2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:text="Main 2 Activity" />
 </LinearLayout>

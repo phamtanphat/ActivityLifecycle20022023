@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d("BBB", "onStop")
+        Log.d("BBB", "onDestroy")
     }
 
     override fun onRestart() {
