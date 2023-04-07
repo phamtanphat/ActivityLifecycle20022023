@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#00B7FF"
+    android:background="#8E8964"
     android:gravity="center"
     tools:context=".MainActivity2">
 
@@ -15,12 +15,6 @@
         android:textColor="#FFFFFF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main 2 Activity" />
+        android:text="Main 3 Activity" />
 
-    <Button
-        android:id="@+id/button_navigate_screen_3"
-        android:layout_marginTop="10dp"
-        android:text="Navigate Main 3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
 </LinearLayout>
