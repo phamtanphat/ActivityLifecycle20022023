@@ -16,7 +16,7 @@ class MainActivity3 : AppCompatActivity() {
         btnUpdateScreen3 = findViewById(R.id.button_update_screen_3)
 
         btnUpdateScreen3.setOnClickListener {
-            val intent = Intent(this@MainActivity3, MainActivity3::class.java)
+            val intent = Intent(this@MainActivity3, MainActivity::class.java)
             startActivity(intent)
         }
     }
